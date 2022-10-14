@@ -1,0 +1,103 @@
+<! DOCTYPE html>
+	<html>
+	<head>
+		<title>Students Registration Form</title>
+	</head>
+	<body background="book.jpg">
+
+			<h1>STUDENTS REGISTRATION FORM </h1>
+	<form>
+
+	 <h3>STUDENTS NAME </h3>
+
+	<label> First Name: <input type="text"name="First Name" placeholder="First Name" required> </label>
+ &nbsp;
+		<label> Last Name: <input type="text"name="Last Name" placeholder="Last Name" required> </label> <br>
+
+		<h3>GENDER </h3>
+
+			<label> Male <input type="radio"name="Gender" placeholder="Male" required> </label>
+ &nbsp;
+
+				<label> Female <input type="radio"name="Gender" placeholder="Female" required> </label>
+ &nbsp;
+					<label> Other <input type="radio"name="Gender" placeholder="Other" required> </label> <br>
+
+					<h3>COLLEGE DETAILS </h3>
+
+					<label> University Roll No. :- <input type="text"name="University Roll No." placeholder="University Roll No." required> </label><br>
+
+					<label for =""> Branch :- </label>
+                    <select id ="branch"name="Branch">
+                    	<option> Select </option>
+						<option> Computer Science & Engineering</option>
+						<option> Information Technology </option>
+						<option> Electronics & Communication Engineering</option>
+						<option> Electrical Engineering</option>
+						<option> Electrical & Electronics Engineering</option>
+						<option> Civil Engineering</option>
+						<option> Mechanical Engineering</option>
+						<option> Chemical Engineering</option>
+						<option> Automobile Engineering </option>
+                        <option> Industrial Engineering & Management</option>
+						<option> Environmental Engineering</option>
+						<option> Petro Chemical Engineering</option>
+						<option> Industrial Production </option>
+
+						<label> Section: <input type="text"name="Section" placeholder="Section" required> </label><br>
+
+						<h3>EMAIL </h3>
+
+						<label> Email:- <input type="Email"name="Email" placeholder="Your Email" required> </label>
+ &nbsp;
+							<label> Password:- <input type="Password"name="Password" placeholder="Your Password" pattern ="{5,10}" required title="Please Enter Password Of Length 5 to 10"> </label>
+							<br>
+
+							<h3>PERSONAL DETAILS </h3>
+
+<label for =""> D.O.B. :- </label>
+
+					<input type="datetime-local">
+<br>
+ <br>
+
+	<h3>PERMANENT ADDRESS </h3>
+
+<label> Street Address:- <input type="text"name=" Street Address" placeholder="" required> </label>
+
+<label> Street Address Line 2:- <input type="text"name=" Street Address Line 2" placeholder="" required> </label>
+
+<label> City:- <input type="text"name=" City" placeholder="ex:Bhopal" required> </label>
+<br>
+<label> PIN Code:- <input type="text"name=" PIN Code" placeholder="ex:000000" required> </label>
+
+<br>
+
+<h3>LOCAL ADDRESS </h3>
+
+<label> Street Address:- <input type="text"name=" Street Address" placeholder="" required> </label>
+
+<label> Street Address Line 2:- <input type="text"name=" Street Address Line 2" placeholder="" required> </label>
+
+<label> City:- <input type="text"name=" City" placeholder="ex:Bhopal" required> </label>
+<br>
+<label> PIN Code:- <input type="text"name=" PIN Code" placeholder="ex:000000" required> </label>
+
+<h3>PHONE NUMBER </h3>
+
+<label> Mobile Number:- <input type="text"name=" Mobile Number" placeholder="+91(0000000000)" required> </label>
+
+<label> What's App Number:- <input type="text"name=" Mobile Number" placeholder="+91(0000000000)" required> </label>
+
+
+<br>
+	<label> Agree to the terms and conditions <input type= "checkbox" name= "check">
+		&nbsp;
+		</label>
+		<br>
+		<input type ="submit" name= "Submit">
+
+	</form>
+
+	</body>
+	</html>
